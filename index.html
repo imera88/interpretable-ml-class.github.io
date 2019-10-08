@@ -5,7 +5,15 @@
 	<title>COMPSCI 282BR: Interpretability and Explainability in Machine Learning</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
-	<meta name="author" content="hima" >
+	<meta name="author" content="hima">
+	<style>
+		.center{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+		}
+	</style>
 
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
@@ -54,7 +62,7 @@
 					to present research papers in class. Students will also carry out a semester-long project
 					applying and extending ideas learnt in the course.
 
-					For more details about grading and course format, see <a href="https://canvas.harvard.edu/courses/68154/files/8447899/download/">this</a>.
+					For further details about grading and course format, see <a href="https://canvas.harvard.edu/courses/68154/files/8447899/download/">this</a>.
 					
 					 <!--See detailed <a
                     href="#grading-policies">course policies.</a></p>-->
@@ -68,40 +76,115 @@
 				<div class="hrline"> <hr /> </div>
 				<div class="row clearfix">
 					<h3 align="center"> Staff </h3>
-					<div class="row clearfix" align="center">
-						<div class="col-md-2 column">
-							<img class="img-thumbnail" src="https://himalakkaraju.github.io/images/hima-2019.jpg" alt="Hima Lakkaraju" width="160" height="160">
+					<br> <br>
+					<div class="row clearfix">
+						<div align="center" class="col-sm-6 col-sm-push-6">
+							<img class="img-thumbnail" src="images/ike.png" alt="Ike Lage" width="160" height="160">
+							<h4>Ike Lage</h4>
+							<h5>Teaching Fellow</h5>
+							<h5>Office Hours: Thursday 2:00pm - 3:00pm</h4>
+							<h5>Location: Maxwell Dworkin 337</h4>
+							<h5><a href="https://www.seas.harvard.edu/directory/erikalage/">Webpage</a></h5>
+						</div>
+						<div align="center" class="col-sm-6 col-sm-pull-6">
+							<img class="img-thumbnail" src="images/hima.png" alt="Hima Lakkaraju" width="160" height="160">
 							<h4>Prof. Hima Lakkaraju</h4>
 							<h5>Instructor</h5>
 							<h5>Office Hours: Tuesday 3:30pm - 4:30pm</h4>
 							<h5>Location: Maxwell Dworkin 337</h4>
 							<h5><a href="https://himalakkaraju.github.io/">Webpage</a></h5>
-						</div>
-						<div class="col-md-2 column">
-							<img class="img-thumbnail" src="https://www.seas.harvard.edu/sites/default/files/styles/directory_large/public/images/Directory/erikalage_200x300.jpg?itok=A082zO2j" alt="Ike Lage" width="160" height="160">
-							<h4>Ike Lage</h4>
-							<h5>Teaching Fellow</h5>
-							<h5>Office Hours: Thursday 2pm - 3pm</h4>
-							<h5>Location: Maxwell Dworkin 337</h4>
-							<h5><a href="https://www.seas.harvard.edu/directory/erikalage/">Webpage</a></h5>
             			</div>
 					</div>
+					
+				</div>
 				</div>
 
 				<div class="hrline"> <hr /> </div> <br>
-				<h3 id="topics">Schedule</h3>
+				<h3 id="topics">Schedule:</h3>
 				<table class="table">
 					<thead>
 						<tr>
-							<th style="width: 12%">Date</th>
-							<th style="width: 30%">Topic</th>
-              <th style="width: 23%">Readings</th>
-							<th style="width: 23%">Background Material</th>
-							<th style="width: 12%">Assignments / Deadlines</th>
+							<th style="width: 15%">Date</th>
+							<th style="width: 25%">Topic</th>
+              				<th style="width: 23%">Readings</th>
+							<th style="width: 22%">Background Material</th>
+							<th style="width: 15%">Assignments / Deadlines</th>
 						</tr>
 					</thead>
 					<tbody>
+					<tr class="active">
+							<td><b>Week 1</b><br/> 
+								September 6
+							</td>
+							<td>Understanding Interpretability<br><a href="slides/Lecture_1.pptx">Slides</a> | Video</td>
+							<td><a href="https://arxiv.org/pdf/1702.08608.pdf"> Doshi-Velez and Kim, 2017</a><br><a href="https://arxiv.org/pdf/1606.03490.pdf">Lipton, 2017</a></td>
+							<td></td>
+							<td></td>
+						</tr>
+
+					<tr class="active">
+							<td><b>Week 2</b><br/> 
+								September 13
+							</td>
+							<td>Evaluating Interpretability<br><a href="slides/Lecture_2.pptx">Slides</a> | Video</td>
+							<td><a href="https://canvas.harvard.edu/courses/68154/files?preview=8425514"> Lage et. al., 2019</a><br><a href="https://arxiv.org/pdf/1802.07810.pdf">Poursabzi-Sangdeh, 2018</a></td>
+							<td></td>
+							<td></td>
+						</tr>
+
+
+					<tr class="active">
+							<td><b>Week 3</b><br/> 
+								September 20
+							</td>
+							<td>Rule Based Approaches<br><a href="slides/Lecture_3.pptx">Slides</a> | Video</td>
+							<td><a href="https://arxiv.org/pdf/1511.01644.pdf"> Letham and Rudin, 2015</a><br><a href="https://www-cs-faculty.stanford.edu/people/jure/pubs/interpretable-kdd16.pdf">Lakkaraju et. al., 2016</a></td>
+							<td></td>
+							<td></td>
+						</tr>
+
+					<tr class="active">
+							<td><b>Week 4</b><br/> 
+								September 27
+							</td>
+							<td>Prototype Based Approaches<br><a href="slides/Lecture_4.pptx">Slides</a> | Video</td>
+							<td><a href="https://arxiv.org/pdf/1710.04806.pdf"> Li et. al., 2017</a><br><a href="https://beenkim.github.io/papers/KimRudinShahNIPS2014.pdf">Kim et. al., 2014</a></td>
+							<td></td>
+							<td></td>
+						</tr>
+
+
+					<tr class="active">
+							<td><b>Week 5</b><br/> 
+								October 4
+							</td>
+							<td>Risk Scores &<br> Generalized Additive Models<br><a href="slides/Lecture_5.pptx">Slides</a> | Video</td>
+							<td><a href="https://canvas.harvard.edu/courses/68154/files/?preview=8630586"> Ustun and Rudin, 2017</a><br><a href="http://people.dbmi.columbia.edu/noemie/papers/15kdd.pdf">Caruana et. al., 2015</a></td>
+							<td></td>
+							<td></td>
+						</tr>
 						
+					<tr class="active">
+							<td><b>Week 6</b><br/> 
+								October 11
+							</td>
+							<td>Explaining Black-Box Models<br>Slides | Video</td>
+							<td><a href="https://arxiv.org/pdf/1602.04938.pdf"> Ribeiro et. al., 2016</a><br><a href="https://arxiv.org/pdf/1811.10154.pdf">Rudin, 2019</a></td>
+							<td></td>
+							<td></td>
+						</tr>
+
+					<tr class="active">
+							<td><b>Week 7</b><br/> 
+								October 18
+							</td>
+							<td>Visualizing Model Behavior<br>Slides | Video</td>
+							<td><a href="https://arxiv.org/pdf/1702.04595.pdf"> Zintgraf et. al., 2017</a><br><a href="https://papers.nips.cc/paper/8160-sanity-checks-for-saliency-maps.pdf">Adebayo et. al., 2018</a></td>
+							<td></td>
+							<td></td>
+						</tr>
+
+
 					</tbody>
 				</table>
 
